@@ -27,5 +27,5 @@ Employs finite differences to calculate the divergence of a two dimentional func
   7. float **learn_rate**. Step size at each iteration
   8. float **zero_level**. The iterations stop when the gradient is below this threshold.
 
-It returns a list with two elements c(xmin, ymin).
+It returns the minimun as a vector with N elements.
 
